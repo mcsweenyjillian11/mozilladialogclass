@@ -1,0 +1,2 @@
+# mozilladialogclass
+; Minimum Sleep time     Sleep(10)      ; Increase the actual delay     $iActDelay += 10      ; If the test is true or the max delay is reached - exit the loop     If $iTest = True Or $iActDelay >= $iMaxDelay Then ExitLoop WinWait("[TITLE:Opening ; CLASS:MozillaDialogClass]","", 10)  //Explanation – “It will wait for the title – opening , type- mozilladialogclass, for 10 secs If WinExists("[TITLE:Opening ; CLASS:MozillaDialogClass]") Then  // if condition
